@@ -32,7 +32,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # login to azure
+    # login to azure  .
     - name: Login to Azure
       uses: azure/login@v1
       with:

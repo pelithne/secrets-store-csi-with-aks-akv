@@ -6,12 +6,12 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "csitest2"
+  RESOURCEGROUPNAME: "csitest"
   LOCATION: "westeurope"
-  KEYVAULTNAME: "csitestakv"
+  KEYVAULTNAME: "pelithnecsiakvv"
   IMAGENAME: "secretstorecsiaksakv86bb"
   REGISTRYSKU: "Standard"
-  REGISTRYNAME: "secretstorecsiaksakvacr"
+  REGISTRYNAME: "pelithnecsi"
   REGISTRYLOCATION: "westeurope"
   CLUSTERNAME: "secret-store-csi-aks-akv"
   APPINSIGHTSLOCATION: "westeurope"
@@ -20,7 +20,7 @@ env:
   AGENTVMSIZE: "Standard_DS2_v2"
   KUBERNETESVERSION: 1.17.13
   OMSLOCATION: "westeurope"
-  OMSWORKSPACENAME: "secretstorecsiaksakv6b56"
+  OMSWORKSPACENAME: "pelithneworkspace"
   HTTPSAPPLICATIONROUTINGENABLED: false
   KUBERNETESAPI: "apps/v1"
   NAMESPACE: "csitest"

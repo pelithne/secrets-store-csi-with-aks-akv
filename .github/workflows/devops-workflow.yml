@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "csitest"
+  RESOURCEGROUPNAME: "csitest2"
   LOCATION: "westeurope"
   KEYVAULTNAME: "csitestakv"
   IMAGENAME: "secretstorecsiaksakv86bb"

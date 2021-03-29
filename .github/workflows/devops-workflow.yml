@@ -6,24 +6,24 @@ on:
       - main
 
 env:
-  RESOURCEGROUPNAME: "secret-store-csi-aks-akv-rg"
-  LOCATION: "East US"
-  KEYVAULTNAME: "secretstorecsiakv"
+  RESOURCEGROUPNAME: "csitest"
+  LOCATION: "westeurope"
+  KEYVAULTNAME: "csitestakv"
   IMAGENAME: "secretstorecsiaksakv86bb"
   REGISTRYSKU: "Standard"
   REGISTRYNAME: "secretstorecsiaksakvacr"
-  REGISTRYLOCATION: "South Central US"
+  REGISTRYLOCATION: "westeurope"
   CLUSTERNAME: "secret-store-csi-aks-akv"
-  APPINSIGHTSLOCATION: "East US"
-  CLUSTERLOCATION: "East US"
-  AGENTCOUNT: "3"
+  APPINSIGHTSLOCATION: "westeurope"
+  CLUSTERLOCATION: "westeurope"
+  AGENTCOUNT: "1"
   AGENTVMSIZE: "Standard_DS2_v2"
   KUBERNETESVERSION: 1.17.13
-  OMSLOCATION: "East US"
+  OMSLOCATION: "westeurope"
   OMSWORKSPACENAME: "secretstorecsiaksakv6b56"
   HTTPSAPPLICATIONROUTINGENABLED: false
   KUBERNETESAPI: "apps/v1"
-  NAMESPACE: "secretstorecsiaksakvaa86"
+  NAMESPACE: "csitest"
 
 jobs:
   build:
